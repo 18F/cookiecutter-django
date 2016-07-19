@@ -12,6 +12,9 @@ Cookiecutter Django
 .. image:: https://badges.gitter.im/Join Chat.svg
    :target: https://gitter.im/pydanny/cookiecutter-django?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 
+**Forked from pydanny/cookiecutter-django for 18F use.**  Our fork adapts
+the cookiecutter to 18F policies.
+
 Powered by Cookiecutter_, Cookiecutter Django is a framework for jumpstarting production-ready Django projects quickly.
 
 * Documentation: https://cookiecutter-django.readthedocs.io
@@ -132,13 +135,6 @@ Answer the prompts with your own desired options_. For example::
     4 - None
     Choose from 1, 2, 3, 4 [1]: 1
     use_lets_encrypt [n]: n
-    Select open_source_license:
-    1 - MIT
-    2 - BSD
-    3 - GPLv3
-    4 - Apache Software License 2.0
-    5 - Not open source
-    Choose from 1, 2, 3, 4, 5 [1]: 1
 
 Enter the project and take a look around::
 

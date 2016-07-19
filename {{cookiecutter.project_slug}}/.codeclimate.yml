@@ -1,0 +1,13 @@
+languages:
+  Python: true
+engines:
+  pep8:
+    enabled: true
+  radon:
+    enabled: true
+ratings:
+   paths:
+   - {{ cookiecutter.project_slug }}/api/**
+exclude_paths:
+   - {{ cookiecutter.project_slug }}/api/static/**
+   - {{ cookiecutter.project_slug }}/api/migrations/**/*

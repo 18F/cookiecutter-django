@@ -1,16 +1,18 @@
 {
-    "project_name": "project_name",
+    "project_name": "project_name (short)",
+    "full_project_name": "project_name (full)",
     "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_') }}",
     "author_name": "Your Name",
-    "email": "Your email",
+    "github_username": "{{ cookiecutter.author_name.lower()|replace(' ', '.') }}",
+    "email": "you@gsa.gov",
     "description": "A short description of the project.",
-    "domain_name": "example.com",
+    "domain_name": "cloud.gov",
     "version": "0.1.0",
     "timezone": "UTC",
     "use_whitenoise": "y",
     "use_celery": "n",
     "use_mailhog": "n",
-    "use_sentry_for_error_reporting": "y",
+    "use_sentry_for_error_reporting": "n",
     "use_opbeat": "n",
     "use_pycharm": "n",
     "windows": "n",
@@ -19,6 +21,5 @@
     "use_heroku": "n",
     "use_compressor": "n",
     "js_task_runner": ["Gulp", "Grunt", "Webpack", "None"],
-    "use_lets_encrypt": "n",
-    "open_source_license": ["MIT", "BSD", "GPLv3", "Apache Software License 2.0", "Not open source"]
+    "use_lets_encrypt": "n"
 }

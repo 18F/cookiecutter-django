@@ -1,0 +1,14 @@
+---
+# all applications use these settings and services
+applications:
+- name: {{ cookiecutter.project_slug }}
+  path: .
+  timeout: 180
+  memory: 512M
+  instances: 1
+  domain: 18f.gov
+  host: gsa{{ cookiecutter.project_slug }}
+  services:
+  - {{ cookiecutter.project_slug }}-db
+  env:
+    DISABLE_COLLECTSTATIC: true

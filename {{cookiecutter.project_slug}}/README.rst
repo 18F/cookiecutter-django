@@ -1,5 +1,5 @@
 {{cookiecutter.project_name}}
-==============================
+=============================
 
 {{cookiecutter.description}}
 
@@ -7,9 +7,18 @@
      :target: https://github.com/pydanny/cookiecutter-django/
      :alt: Built with Cookiecutter Django
 
-{% if cookiecutter.open_source_license != "Not open source" %}
-LICENSE: {{cookiecutter.open_source_license}}
-{% endif %}
+.. image:: https://travis-ci.org/18F/{{ cookiecutter.project_slug }}.svg?branch=master
+     :target: https://travis-ci.org/18F/{{ cookiecutter.project_slug }}
+     :alt: Build Status
+
+.. image:: https://codeclimate.com/github/18F/{{ cookiecutter.project_slug }}/badges/gpa.svg
+     :target: https://codeclimate.com/github/18F/{{ cookiecutter.project_slug }}
+     :alt: Code Climate
+
+.. image:: https://codecov.io/github/18F/{{ cookiecutter.project_slug }}/coverage.svg?branch=master
+     :target: https://codecov.io/github/18F/{{ cookiecutter.project_slug }}?branch=master
+     :alt: codecov.io
+
 
 Settings
 ------------
@@ -177,3 +186,19 @@ See detailed `cookiecutter-django Docker documentation`_.
 .. _`cookiecutter-django Docker documentation`: http://cookiecutter-django.readthedocs.io/en/latest/deployment-with-docker.html
 
 {% endif %}
+
+
+
+Public domain
+=============
+
+This project is in the worldwide `public domain`_.
+As stated in `[CONTRIBUTING]`_:
+
+> This project is in the public domain within the United States, and copyright and related rights in the work worldwide are waived through the [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+>
+> All contributions to this project will be released under the CC0 dedication. By submitting a pull request, you are agreeing to comply with this waiver of copyright interest.
+
+.. _`public domain`: LICENSE
+
+.. _`CONTRIBUTING`: CONTRIBUTING.md

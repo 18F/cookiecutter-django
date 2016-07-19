@@ -285,8 +285,8 @@ if '{{ cookiecutter.use_lets_encrypt }}'.lower() == 'y' and '{{ cookiecutter.use
     )
 
 # 11. Removes files needed for the GPLv3 licence if it isn't going to be used.
-if '{{ cookiecutter.open_source_license}}' != 'GPLv3':
-    remove_copying_files()
+# if '{{ cookiecutter.open_source_license}}' != 'GPLv3':
+#    remove_copying_files()
 
 # 4. Copy files from /docs/ to {{ cookiecutter.project_slug }}/docs/
 # copy_doc_files(PROJECT_DIRECTORY)
