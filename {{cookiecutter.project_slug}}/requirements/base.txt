@@ -63,4 +63,7 @@ django_compressor==2.0
 django-webpack-loader==0.3.0
 {%- endif %}
 
+django-rest-swagger==2.0.1
+djangorestframework==3.3.3
+
 # Your custom requirements go here

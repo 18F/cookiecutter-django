@@ -44,6 +44,7 @@ Features
 * Instructions for deploying to PythonAnywhere_
 * Works with Python 2.7.x or 3.5.x
 * Run tests with unittest or py.test
+* Sets up starter API at /api/v1
 
 
 Optional Integrations
