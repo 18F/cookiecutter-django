@@ -63,8 +63,8 @@ django_compressor==2.0
 django-webpack-loader==0.3.0
 {%- endif %}
 
-django-rest-swagger==2.0.1
-djangorestframework==3.3.3
+django-rest-swagger==2.0.2
+djangorestframework==3.4.0
 
 # sqlparse 0.2 is incompatible with django_debug_toolbar
 sqlparse==0.1.19 # pyup: < 0.2

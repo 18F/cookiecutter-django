@@ -25,6 +25,8 @@ urlpatterns = [
     url(r'^users/', include('{{ cookiecutter.project_slug }}.users.urls', namespace='users')),
     url(r'^accounts/', include('allauth.urls')),
 
+    url(r'^api/v1/docs/', views.schema_view),
+
     # Your stuff: custom urls includes go here
     url(r'^api/v1/', include(router.urls)),
     url(r'^api/v1/api-auth/', include('rest_framework.urls', namespace='rest_framework')),
