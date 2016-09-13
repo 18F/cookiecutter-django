@@ -223,3 +223,12 @@ The following haven't provided code directly, but have provided guidance and adv
 * Jannis Leidel
 * Nate Aune
 * Barry Morrison
+
+18F changes
+~~~~~~~~~~~
+
+This project is forked from pydanny/cookiecutter-django and is intended to
+contain only those boilerplate changes appropriate to help projects created
+with it conform to 18F standards.  Those changes have been authored by
+
+* Catherine Devlin

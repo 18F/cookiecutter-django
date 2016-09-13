@@ -3,6 +3,18 @@
 
 {{cookiecutter.description}}
 
+.. image:: https://img.shields.io/travis/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}.svg?branch=master
+     :target: https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}
+     :alt: Build Status
+.. image:: https://coveralls.io/repos/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}.svg?branch=master
+     :target: https://coveralls.io/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}?branch=master
+     :alt: Coverage status
+.. image:: https://codeclimate.com/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}.svg
+     :target: https://codeclimate.com/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}
+     :alt: Code Climate status
+.. image:: https://continua11y.18f.gov/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}?branch=master
+     :target: https://continua11y.18f.gov/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}
+     :alt: Accessibility status
 .. image:: https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg
      :target: https://github.com/pydanny/cookiecutter-django/
      :alt: Built with Cookiecutter Django

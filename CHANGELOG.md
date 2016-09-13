@@ -788,3 +788,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Removed
 - unnecessary header block tag and 'user:' prefix. (@pydanny)
+
+## [2016-09-13]
+### Changed
+- License and boilerplate to match 18F standards.  (@catherinedevlin)

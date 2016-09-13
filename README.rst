@@ -1,17 +1,24 @@
 Cookiecutter Django
 =======================
 
-.. image:: https://pyup.io/repos/github/pydanny/cookiecutter-django/shield.svg
-     :target: https://pyup.io/repos/github/pydanny/cookiecutter-django/
+.. image:: https://pyup.io/repos/github/18F/cookiecutter-django/shield.svg
+     :target: https://pyup.io/repos/github/18F/cookiecutter-django/
      :alt: Updates
 
-.. image:: https://travis-ci.org/pydanny/cookiecutter-django.svg?branch=master
-     :target: https://travis-ci.org/pydanny/cookiecutter-django?branch=master
+.. image:: https://travis-ci.org/18F/cookiecutter-django.svg?branch=master
+     :target: https://travis-ci.org/18F/cookiecutter-django?branch=master
      :alt: Build Status
 
 .. image:: https://badges.gitter.im/Join Chat.svg
-   :target: https://gitter.im/pydanny/cookiecutter-django?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+   :target: https://gitter.im/18F/cookiecutter-django?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 
+An 18F fork
+-----------
+
+This project is forked from pydanny/cookiecutter-django and is intended to
+contain only those boilerplate changes appropriate to help projects created
+with it conform to 18F standards.
+   
 Powered by Cookiecutter_, Cookiecutter Django is a framework for jumpstarting production-ready Django projects quickly.
 
 * Documentation: https://cookiecutter-django.readthedocs.io/en/latest/
@@ -93,7 +100,7 @@ First, get Cookiecutter. Trust me, it's awesome::
 
 Now run it against this repo::
 
-    $ cookiecutter https://github.com/pydanny/cookiecutter-django
+    $ cookiecutter https://github.com/18F/cookiecutter-django
 
 You'll be prompted for some values. Provide them, then a Django project will be created for you.
 

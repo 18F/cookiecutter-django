@@ -13,3 +13,7 @@ python:
 {% else %}
   - "2.7"
 {%- endif %}
+install: pip install -U codeclimate-test-reporter pytest-cov
+script: py.test --cov=.
+after-script:
+- codeclimate-test-reporter
